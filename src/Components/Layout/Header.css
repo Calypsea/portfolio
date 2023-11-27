@@ -2,9 +2,7 @@ header
 {
     display: flex;
     justify-content: space-between;
-    margin: 40px 40px;
-    
-    
+    margin: 15px;
 }
 header .link
 {
@@ -17,11 +15,11 @@ header .link
 header .link:hover
 {
   
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #A68745;
 }
 .active 
 {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #A68745;
 }
 header img
 {

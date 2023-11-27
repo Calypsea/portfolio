@@ -32,8 +32,8 @@ export default function MainBody() {
             CSS. 
            
           </p>
-          <button className="primaryButton">Go to site</button>
-          <button className="primaryButton">Github</button>
+          <a href="/portfolio/projects" className="primaryButton">Go to projects</a>
+        
         </div>
     )
   }
@@ -47,8 +47,8 @@ export default function MainBody() {
             susirasti naują knygą. Ši svetainė yra sukurta naudojant React,
             TypeScript ir CSS. 
           </p>
-          <button className="primaryButton">Go to site</button>
-          <button className="primaryButton">Github</button>
+          <a href="/portfolio/projects" className="primaryButton">Go to projects</a>
+          
         </div>
     )
   }
