@@ -1,0 +1,29 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px;
+    
+    
+}
+header .link
+{
+    text-decoration: none;
+    color: #A68745;
+    margin-right: 30px;
+    padding-bottom: 4px;
+   
+}
+header .link:hover
+{
+  
+    border-bottom: 1px solid #000000;
+}
+.active 
+{
+    border-bottom: 1px solid #000000;
+}
+header img
+{
+    width: 100px;
+}

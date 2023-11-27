@@ -1,0 +1,68 @@
+.projectsPageOuter
+{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+   
+    width: 90%;
+    max-width: 1000px;
+    margin: 200px auto;
+}
+.projectPageContainer
+{
+    display: flex;
+    gap: 40px;
+    background-color: #183131;
+    padding: 25px 25px 70px 25px;
+    border-radius: 15px;
+    opacity: 0; /* Initially set opacity to 0 */
+    transform: translateX(-100%); /* Initially move container to the left */
+    animation: slideIn 1s ease-out forwards; /* Animation properties */
+   
+}
+.projectPage h1
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.examplesSmall
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectPageContainer p 
+{
+    margin-bottom: 50px;
+    text-align:justify;
+}
+@keyframes slideIn {
+    to {
+      opacity: 1; /* At the end of animation, set opacity to 1 */
+      transform: translateX(0%); /* At the end of animation, move container to its original position */
+    }
+  }
+.projectTitle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #E8B852;
+    text-transform: uppercase;
+    animation: flip 7s infinite;
+    animation-delay: calc(.7s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
