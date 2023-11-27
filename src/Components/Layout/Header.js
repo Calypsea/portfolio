@@ -7,24 +7,26 @@ export default function Header() {
 
   return (
     <header>
-      <Link to="/portfolio"><img src={nameLogo} alt="logo" /></Link>
-      <nav>
-        <Link to="/portfolio/projects"
-        className={currentLocation === "/portfolio/projects" ? "link active" : "link"}>
-          Projektai
-        </Link>
-        <Link
-          to="/portfolio"
-          className="link"
-        >
-          Apie
-        </Link>
-        <Link 
-            to="/portfolio" className="link">
-          Susisiekti
-        </Link>
-       
-      </nav>
-    </header>
+    <Link to="/portfolio"><img src={nameLogo} alt="logo" /></Link>
+    <nav>
+      <Link to="/portfolio/projects"
+      className={currentLocation === "/portfolio/projects" ? "link active" : "link"}>
+        Projektai
+      </Link>
+      <Link
+        to="/portfolio"
+        className="link"
+      >
+        Apie
+      </Link>
+      <Link 
+          to="/portfolio" className="link">
+        Susisiekti
+      </Link>
+     
+    </nav>
+  </header>
   );
 }
+
+
