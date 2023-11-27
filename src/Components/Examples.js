@@ -43,6 +43,7 @@ export default function Examples() {
                     <a
                       href="https://calypsea.github.io/BookLook/"
                       target="_blank"
+                      rel="noreferrer"
                       className="primaryButton"
                     >
                       Go to site
@@ -50,6 +51,7 @@ export default function Examples() {
                     <a
                       href="https://github.com/Calypsea/BookLook"
                       target="_blank"
+                      rel="noreferrer"
                       className="primaryButton"
                     >
                       Github
@@ -72,6 +74,7 @@ export default function Examples() {
                     <a
                       href="https://calypsea.github.io/CookBook/"
                       target="_blank"
+                      rel="noreferrer"
                       className="primaryButton"
                     >
                       Go to site
@@ -79,6 +82,7 @@ export default function Examples() {
                     <a
                       href="https://github.com/Calypsea/CookBook"
                       target="_blank"
+                      rel="noreferrer"
                       className="primaryButton"
                     >
                       Github
@@ -105,6 +109,7 @@ export default function Examples() {
                     <a
                       href="https://calypsea.github.io/BookLook/"
                       target="_blank"
+                      rel="noreferrer"
                       className="primaryButton"
                     >
                       Go to site
@@ -112,6 +117,7 @@ export default function Examples() {
                     <a
                       href="https://github.com/Calypsea/BookLook"
                       target="_blank"
+                      rel="noreferrer"
                       className="primaryButton"
                     >
                       Github
@@ -136,6 +142,7 @@ export default function Examples() {
                     <a
                       href="https://calypsea.github.io/CookBook/"
                       target="_blank"
+                      rel="noreferrer"
                       className="primaryButton"
                     >
                       Go to site
@@ -143,6 +150,7 @@ export default function Examples() {
                     <a
                       href="https://github.com/Calypsea/CookBook"
                       target="_blank"
+                      rel="noreferrer"
                       className="primaryButton"
                     >
                       Github

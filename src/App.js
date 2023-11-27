@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import MainBody from './Components/MainBody.js';
 import Layout from './Components/Layout/Layout.js';
@@ -9,9 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />} >
+        <Route path="/portfolio" element={<Layout />} >
           <Route index element={<MainBody />} />
-          <Route path="projects" element={<Examples />} />
+          <Route path="/portfolio/projects" element={<Examples />} />
         </Route>
         
       </Routes>

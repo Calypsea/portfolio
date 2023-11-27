@@ -1,23 +1,21 @@
 import React from "react";
 import "./MainBody.css";
-import temporaryLogo from "../Images/temporary.jpg";
 import project_1_Img from "../Images/project1.JPG";
 import project_2_Img from "../Images/project2.JPG";
 import Media from "react-media";
 
 import skillArray from "./SkillData/skills.js";
-import temp from "../Images/skills/css.png";
 
 
 
 export default function MainBody() {
-  const [skills, setSkills] = React.useState(skillArray);
+  const [skills] = React.useState(skillArray);
   
   let skillElements = skills.map((item) => {
     
     return (
       <div key={item.name} className="skillBlock">
-        <img src={item.image} className="skillIMG" />
+        <img src={item.image} className="skillIMG" alt="" />
         <p>{item.name}</p>
       </div>
     );
@@ -124,49 +122,13 @@ export default function MainBody() {
           <li>austeja.mintak@gmail.com</li>
           <li>
             <a href="https://www.linkedin.com/in/aust%C4%97ja-kazlauskait%C4%97-550368252/"
-            target="_blank">
+            target="_blank" rel="noreferrer">
               LinkedIn
             </a>
           </li>
-          <li><a href="https://github.com/Calypsea" target="_blank">Github</a></li>
+          <li><a href="https://github.com/Calypsea" target="_blank"  rel="noreferrer">Github</a></li>
         </ul>
       </section>
     </main>
   );
 }
-
-
-
-{/* <Media queries={{small: {maxWidth: 768 } }}>
-{(matches) => !matches.small ? (
-  <section className="intro row">
-    <img src={temporaryLogo} />
-    <div className="headText">
-      <h1>
-        Sveiki, aš Austėja. Esu Front-end programuotoja iš Lietuvos,
-        Vilniaus.
-      </h1>
-      <p>
-        Šiuo metu studijuoju Vilnius Tech Universitete. Programavimą
-        savarankiškai mokausi jau apie 1-erius metus. Įvairius projektus
-        atlieku ne tik Universitete, tačiau ir savo laisvalaikiu.
-      </p>
-    </div>
-  </section>
-) : 
-<section className="intro row">
-  <div className="headText">
-    <h1>
-      Sveiki, aš Austėja. Esu Front-end programuotoja iš Lietuvos,
-      Vilniaus.
-    </h1>
-    <p>
-      Šiuo metu studijuoju Vilnius Tech Universitete. Programavimą
-      savarankiškai mokausi jau apie 1-erius metus. Įvairius projektus
-      atlieku ne tik Universitete, tačiau ir savo laisvalaikiu.
-    </p>
-  </div>
-</section>
-}
-
-</Media> */}
