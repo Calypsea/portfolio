@@ -66,3 +66,28 @@
       transform: rotateY(360deg) 
     }
   }
+  .projectleaf1
+  {
+    position: absolute;
+    width: 30vw;
+    top: 25vh;
+    left: 0;
+    z-index: 1;
+    transform: rotate(20deg);
+    
+    
+  }
+  .projectleaf3
+  {
+    position: absolute;
+    width: 30vw;
+    top: 30vh;
+    right: 0;
+    z-index: 1;
+   
+  }
+  .projectsmallLeaf
+  {
+    width: 35vw;
+    top: 25vh;
+  }

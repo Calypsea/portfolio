@@ -2,7 +2,7 @@
 {
     width: 80%;
     max-width: 1100px;
-    margin: 200px auto;
+    margin: 50px auto;
     text-align: center;
 }
 .headText
@@ -101,6 +101,7 @@ section
 .projectContainer p
 {
     text-align: justify;
+    margin-bottom: 50px;
     
 }
 .projectContainer
@@ -118,6 +119,7 @@ section
     padding: 10px 25px;
     font-size: 18px;
     margin-right: 10px;
+    
 }
 .primaryButton:hover
 {
@@ -169,3 +171,61 @@ ul
     margin-top: 30vh;
     margin-bottom: 10vh;
   }
+  .leaves 
+  {
+    display: flex;
+    overflow: hidden;
+  }
+  .leaf1
+  {
+    position: absolute;
+    width: 30vw;
+    top: 60vh;
+    left: 0;
+    transform: rotate(20deg);
+    
+  }
+  .leaf2
+  {
+    position: absolute;
+    width: 30vw;
+    top: 60vh;
+    right: 0;
+   
+  }
+  .smallLeaf
+  {
+    width: 40vw;
+    top: 75vh;
+  }
+  .leaf3, .leaf4
+  {
+    position: absolute;
+    width: 30vw;
+    bottom: 0px;
+  }
+  .leaf3 
+  {
+    left: 0;
+    transform: rotate(20deg);
+    
+  }
+  .leaf4 
+  {
+    right: 0;
+  }
+  .leavesBottom
+  {
+    flex: 1;
+    position: relative;
+    
+  }
+  .smallLeaf2
+  {
+    width: 40vw;
+  }
+  .footer
+  {
+    margin-top: 20vh;
+  }
+  

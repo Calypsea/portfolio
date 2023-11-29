@@ -1,5 +1,9 @@
 import project_1_Img from "../Images/project1.JPG";
 import project_2_Img from "../Images/project2.JPG";
+import leaf1 from "../Images/leaf1.png";
+import leaf2 from "../Images/leaf2.png";
+import leaf3 from "../Images/leaf3.png";
+
 import Media from "react-media";
 import "./Examples.css";
 export default function Examples() {
@@ -20,7 +24,22 @@ export default function Examples() {
           <span style={{"--i":9}}>i</span>
         </div>
       </section>
+      <Media queries={{ small: { maxWidth: 999 } }}>
+      {(matches) =>
+            !matches.small ? (
+              <div className="leaves">
+                <img src={leaf1} className="projectleaf1" alt=" "/>
+                <img src={leaf3} className="projectleaf3" alt=" "/>
+              </div>
+            ) : (
+              <div className="leaves">
+               <img src={leaf1} className="projectleaf1 projectsmallLeaf " alt=" "/>
+                <img src={leaf3} className="projectleaf3 projectsmallLeaf" alt=" "/>
+              </div>
+            )
+          }
       
+      </Media>   
 
       <div className="projectsPageOuter ">
         <Media queries={{ small: { maxWidth: 768 } }}>
