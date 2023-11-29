@@ -68,7 +68,7 @@ export default function MainBody() {
           </p>
         </div>
       </section>
-      <Media queries={{ small: { maxWidth: 999 } }}>
+      {/* <Media queries={{ small: { maxWidth: 999 }}}>
       {(matches) =>
             !matches.small ? (
               <div className="leaves">
@@ -80,6 +80,30 @@ export default function MainBody() {
                <img src={leaf1} className="leaf1 smallLeaf " alt=" "/>
                 <img src={leaf2} className="leaf2 smallLeaf" alt=" "/>
               </div>
+            )
+          }
+      
+      </Media> */}
+      <Media queries={{ small: { maxWidth: 999 }, phone: {maxWidth: 450}}}>
+      {(matches) =>
+            !matches.small ? (
+              <div className="leaves">
+                <img src={leaf1} className="leaf1" alt=" "/>
+                <img src={leaf2} className="leaf2" alt=" "/>
+              </div>
+            ) : (
+              matches.phone ? (
+                <div className="leaves smaller">
+                  <img src={leaf1} className="leaf1 phoneleaf " alt=" "/>
+                  <img src={leaf2} className="leaf2 phoneleaf" alt=" "/>
+                </div>
+              ) : (
+                  <div className="leaves smaller">
+                    <img src={leaf1} className="leaf1 smallLeaf " alt=" "/>
+                    <img src={leaf2} className="leaf2 smallLeaf" alt=" "/>
+                  </div>
+              )
+              
             )
           }
       

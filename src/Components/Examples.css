@@ -6,7 +6,7 @@
    
     width: 90%;
     max-width: 1000px;
-    margin: 200px auto;
+    margin: 5vh auto;
 }
 .projectPageContainer
 {
@@ -89,5 +89,5 @@
   .projectsmallLeaf
   {
     width: 35vw;
-    top: 25vh;
+    top: 35vh;
   }

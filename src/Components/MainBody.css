@@ -179,16 +179,21 @@ ul
   .leaf1
   {
     position: absolute;
-    width: 30vw;
+    width: 25vw;
     top: 60vh;
     left: 0;
     transform: rotate(20deg);
     
   }
+  .austeja
+  {
+    max-width: 60%;
+    width: 250px;
+  }
   .leaf2
   {
     position: absolute;
-    width: 30vw;
+    width: 25vw;
     top: 60vh;
     right: 0;
    
@@ -227,5 +232,9 @@ ul
   .footer
   {
     margin-top: 20vh;
+  }
+  .phoneleaf
+  {
+    display: none;
   }
   
