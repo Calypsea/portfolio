@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ab6c9049.css",
-    "main.js": "/portfolio/static/js/main.75903711.js",
+    "main.css": "/portfolio/static/css/main.6892a47f.css",
+    "main.js": "/portfolio/static/js/main.2c2a44e4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/leaf2.png": "/portfolio/static/media/leaf2.57a244cca71f50b9533f.png",
+    "static/media/leaf1.png": "/portfolio/static/media/leaf1.b0247c5a8408a22acf14.png",
     "static/media/project2.JPG": "/portfolio/static/media/project2.393b81bde1ff80b8b54b.JPG",
     "static/media/project1.JPG": "/portfolio/static/media/project1.dd24041cce8e2522d564.JPG",
+    "static/media/leaf3.png": "/portfolio/static/media/leaf3.e83ddb5090a61e3f2962.png",
     "static/media/figma.png": "/portfolio/static/media/figma.66c3d555e1026dab7020.png",
     "static/media/React-icon.svg.png": "/portfolio/static/media/React-icon.svg.b76698cf6e821b8a8758.png",
     "static/media/css.png": "/portfolio/static/media/css.2145bb6c7160a7e0d8ab.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.e656283764a2a9c8e1a2.png",
     "static/media/logo1.png": "/portfolio/static/media/logo1.fd29f49a424d61e34602.png",
     "static/media/html.png": "/portfolio/static/media/html.eef9c7ea3d47f2dcd4c8.png",
     "static/media/JavaScript-logo.png": "/portfolio/static/media/JavaScript-logo.3ade557547ee3603cbf9.png",
     "index.html": "/portfolio/index.html",
-    "main.ab6c9049.css.map": "/portfolio/static/css/main.ab6c9049.css.map",
-    "main.75903711.js.map": "/portfolio/static/js/main.75903711.js.map",
+    "main.6892a47f.css.map": "/portfolio/static/css/main.6892a47f.css.map",
+    "main.2c2a44e4.js.map": "/portfolio/static/js/main.2c2a44e4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab6c9049.css",
-    "static/js/main.75903711.js"
+    "static/css/main.6892a47f.css",
+    "static/js/main.2c2a44e4.js"
   ]
 }
