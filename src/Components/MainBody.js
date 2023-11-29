@@ -2,7 +2,7 @@ import React from "react";
 import "./MainBody.css";
 import project_1_Img from "../Images/project1.JPG";
 import project_2_Img from "../Images/project2.JPG";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import nameLogo from "../Images/logo.png";
 import leaf1 from "../Images/leaf1.png";
 import leaf2 from "../Images/leaf2.png"
@@ -21,8 +21,20 @@ export default function MainBody() {
       </div>
     );
   });
-
+  const navigate = useNavigate();
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+  
+  
   function project1Component() {
+    const handleClickTop = () => {
+      navigate('/portfolio/projects');
+      setTimeout(scrollToTop, 100);
+    };
     return (
       <div className="projectContainer">
         <img src={project_1_Img} alt="" className="projectIMG" />
@@ -31,13 +43,17 @@ export default function MainBody() {
           padėti išsirinkti kitą patiekalą. Ji parašyta naudojant React JSX,
           CSS.
         </p>
-        <Link to="/portfolio/projects" className="primaryButton">
+        <Link to="/portfolio/projects" onClick={handleClickTop} className="primaryButton">
           Go to projects
         </Link>
       </div>
     );
   }
   function project2Component() {
+    const handleClickTop = () => {
+      navigate('/portfolio/projects');
+      setTimeout(scrollToTop, 100);
+    };
     return (
       <div className="projectContainer">
         <img src={project_2_Img} alt="" className="projectIMG" />
@@ -46,12 +62,13 @@ export default function MainBody() {
           naują knygą. Ši svetainė yra sukurta naudojant React, TypeScript ir
           CSS.
         </p>
-        <Link to="/portfolio/projects" className="primaryButton">
+        <Link to="/portfolio/projects" onClick={handleClickTop} className="primaryButton">
           Go to projects
         </Link>
       </div>
     );
   }
+  
   return (
     <main>
       <section className="intro row">
